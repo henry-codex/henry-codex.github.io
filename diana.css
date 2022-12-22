@@ -1,0 +1,51 @@
+selector{
+	transition-property: value;
+}
+
+.div {
+	background-color: black;
+}
+
+body {
+	background-image: url(https://images.unsplash.com/photo-1463171379579-3fdfb86d6285?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+
+H1 {
+	font-size:3rem ;
+}
+
+H1:hover {
+	transform: scale(1.1);
+	animation-name: unset;
+	animation-timeline: 1s;
+}
+hr {
+	border-width: 300px;
+	border-color: darkred;
+	max-width: 65px;
+}
+
+.buffer {
+	height: 300px;
+}
+.btn {
+	font-weight: 700;
+	border-radius: 300px;
+	text-transform: uppercase;
+	align-content: center;
+}
+
+.btn:hover {
+	transform: scale(1.1);
+	animation-name: unset;
+	animation-timeline: 1s;
+}
+
+.btn-xl {
+	padding: 1rem 2rem;
+}
